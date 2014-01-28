@@ -1,0 +1,163 @@
+﻿<Page
+    x:Class="SpeedChess.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpeedChess"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    RequestedTheme="Dark">
+
+    <ScrollViewer x:Name="mainScroll" HorizontalScrollMode="Disabled" ScrollViewer.VerticalScrollBarVisibility="Hidden" Height="1800">
+
+        <Grid x:Name="mainGrid" Width="750" Height="2500">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1800"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock x:Name="clockW" FontFamily="Arial" FontSize="120" Text="02:00" Margin="30,15,-31,-45" Grid.ColumnSpan="2"/>
+
+            <TextBlock x:Name="clockB" FontFamily="Arial" FontSize="120" Text="02:00" Margin="30,250,0,-45" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform Rotation="-180"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+
+            <Grid x:Name="ChessboardLayout" Width="750" Height="900" Margin="10,40,-5,10" Grid.ColumnSpan="2">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Assets/board.png"/>
+                </Grid.Background>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <!-- RECTANGLE TIME -->
+                <Image Source="/Assets/trans.png" Name="E00" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E01" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E02" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E03" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E04" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E05" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E06" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E07" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E10" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E11" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E12" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E13" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E14" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E15" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E16" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E17" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E20" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E21" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E22" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E23" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E24" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E25" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E26" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E27" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E30" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E31" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E32" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E33" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E34" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E35" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E36" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E37" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E40" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E41" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E42" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E43" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E44" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E45" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E46" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E47" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E50" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E51" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E52" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E53" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E54" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E55" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E56" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E57" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E60" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E61" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E62" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E63" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E64" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E65" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E66" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E67" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E70" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E71" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E72" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E73" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E74" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E75" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E76" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+                <Image Source="/Assets/trans.png" Name="E77" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}" PointerReleased="EmptyRect_Pointer_Released" />
+
+                <Image Source="/Assets/W-pawn.png" Name="WP1" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/W-pawn.png" Name="WP2" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/W-pawn.png" Name="WP3" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/W-pawn.png" Name="WP4" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/W-pawn.png" Name="WP5" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+
+                <Image Source="/Assets/W-pawn.png" Name="WP6" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/W-pawn.png" Name="WP7" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/W-pawn.png" Name="WP8" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-pawn-r.png" Name="BP1" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-pawn-r.png" Name="BP2" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+
+                <Image Source="/Assets/B-pawn-r.png" Name="BP3" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-pawn-r.png" Name="BP4" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-pawn-r.png" Name="BP5" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-pawn-r.png" Name="BP6" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-pawn-r.png" Name="BP7" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+
+                <Image Source="/Assets/B-pawn-r.png" Name="BP8" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/W-Rook.png" Name="WR1" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/W-Rook.png" Name="WR2" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-Rook.png" Name="BR1" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-Rook.png" Name="BR2" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+
+                <Image Source="/Assets/W-Knight.png" Name="WH1" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/W-Knight.png" Name="WH2" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-Knight.png" Name="BH1" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-Knight.png" Name="BH2" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/W-Bishop.png" Name="WB1" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+
+                <Image Source="/Assets/W-Bishop.png" Name="WB2" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"   PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-Bishop.png" Name="BB1" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-Bishop.png" Name="BB2" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/W-Queen.png" Name="WQ" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-Queen.png" Name="BQ" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+
+                <Image Source="/Assets/W-King.png" Name="WK" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+                <Image Source="/Assets/B-King.png" Name="BK" Width="80" Height="90" Grid.Column="{Binding x}" Grid.Row="{Binding y}"  PointerReleased="Pointer_Released" />
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+
+</Page>

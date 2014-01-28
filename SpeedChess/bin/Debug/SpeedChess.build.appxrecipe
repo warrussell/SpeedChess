@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>COBALTSURFACE</Machine>
+    <WindowsUser>Warren</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d7a6d404-7934-4e5c-89d0-9978128dc0fa</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\SpeedChess.exe">
+      <PackagePath>SpeedChess.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\B-Bishop.png">
+      <PackagePath>Assets\B-Bishop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\B-King.png">
+      <PackagePath>Assets\B-King.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\B-Knight.png">
+      <PackagePath>Assets\B-Knight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\B-pawn-r.png">
+      <PackagePath>Assets\B-pawn-r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\B-pawn.png">
+      <PackagePath>Assets\B-pawn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\B-Queen.png">
+      <PackagePath>Assets\B-Queen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\B-Rook.png">
+      <PackagePath>Assets\B-Rook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\black.png">
+      <PackagePath>Assets\black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\board.png">
+      <PackagePath>Assets\board.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\trans.png">
+      <PackagePath>Assets\trans.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\W-Bishop.png">
+      <PackagePath>Assets\W-Bishop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\W-King.png">
+      <PackagePath>Assets\W-King.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\W-Knight.png">
+      <PackagePath>Assets\W-Knight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\W-pawn.png">
+      <PackagePath>Assets\W-pawn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\W-Queen.png">
+      <PackagePath>Assets\W-Queen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\W-Rook.png">
+      <PackagePath>Assets\W-Rook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\Assets\white.png">
+      <PackagePath>Assets\white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

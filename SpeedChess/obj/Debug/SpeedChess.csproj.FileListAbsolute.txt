@@ -1,0 +1,93 @@
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\App.g.i.cs
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\App.g.cs
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\MainPage.g.i.cs
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\MainPage.g.cs
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\XamlTypeInfo.g.cs
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\App.xaml
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\App.xbf
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\XamlSaveStateFile.xml
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\MainPage.xaml
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\MainPage.xbf
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\bin\Debug\App.xbf
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\bin\Debug\MainPage.xbf
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\bin\Debug\SpeedChess.exe
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\bin\Debug\SpeedChess.pdb
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\bin\Debug\resources.pri
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\bin\Debug\AppxManifest.xml
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\bin\Debug\SpeedChess.build.appxrecipe
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\SpeedChess.exe
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\SpeedChess.pdb
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\priconfig.xml
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\priconfig.xml.intermediate
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\layout.resfiles
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\layout.resfiles.intermediate
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\resources.resfiles
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\resources.resfiles.intermediate
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\pri.resfiles
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\pri.resfiles.intermediate
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\qualifiers.txt
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\qualifiers.txt.intermediate
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\henry\documents\visual studio 2013\Projects\SpeedChess\SpeedChess\obj\Debug\ProjectArchitectures.txt
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\bin\Debug\App.xbf
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\bin\Debug\MainPage.xbf
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\bin\Debug\SpeedChess.exe
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\bin\Debug\SpeedChess.pdb
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\bin\Debug\resources.pri
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\bin\Debug\AppxManifest.xml
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\bin\Debug\SpeedChess.build.appxrecipe
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\App.g.i.cs
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\App.g.cs
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\MainPage.g.i.cs
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\MainPage.g.cs
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\App.xaml
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\MainPage.xaml
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\App.xbf
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\MainPage.xbf
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\SpeedChess.exe
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\SpeedChess.pdb
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\priconfig.xml
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\priconfig.xml.intermediate
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\layout.resfiles
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\layout.resfiles.intermediate
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\resources.resfiles
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\resources.resfiles.intermediate
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\pri.resfiles
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\pri.resfiles.intermediate
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\qualifiers.txt
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Warren\Dropbox\SFU Haaaaaackthon\NewCHessPiece\SpeedChess\SpeedChess\obj\Debug\ProjectArchitectures.txt
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\App.xbf
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\MainPage.xbf
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\SpeedChess.exe
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\SpeedChess.pdb
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\resources.pri
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\AppxManifest.xml
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\bin\Debug\SpeedChess.build.appxrecipe
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\App.g.i.cs
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\App.g.cs
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\MainPage.g.i.cs
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\MainPage.g.cs
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\App.xaml
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\MainPage.xaml
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\App.xbf
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\MainPage.xbf
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\SpeedChess.exe
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\SpeedChess.pdb
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\priconfig.xml
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\priconfig.xml.intermediate
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\layout.resfiles
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\layout.resfiles.intermediate
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\resources.resfiles
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\resources.resfiles.intermediate
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\pri.resfiles
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\pri.resfiles.intermediate
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\qualifiers.txt
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Warren\Documents\Programming\Chess\SpeedChess\SpeedChess\obj\Debug\ProjectArchitectures.txt
